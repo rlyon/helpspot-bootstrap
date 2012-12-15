@@ -7,7 +7,7 @@ include $this->loadTemplate('navigation.tpl.php');
 ?>
 
 <div style="border:1px solid #ccc;padding:10px;font-weight:bold;">
-	<?php echo lg_portal_maintenance_note ?>
+  <?php echo lg_portal_maintenance_note ?>
 </div>
 
 <?php include $this->loadTemplate('footer.tpl.php'); ?>
