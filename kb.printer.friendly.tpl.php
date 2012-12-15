@@ -12,7 +12,7 @@ include $this->loadTemplate('header.tpl.php');
 include $this->loadTemplate('navigation.tpl.php');
 ?>
 
-<ul class="breadcrumbs">
+<ul class="breadcrumb">
   <li><a href="index.php"><?php echo lg_portal_home ?></a><span class="divider">/</span></li>
   <li><a href="index.php?pg=kb.book&id=<?php echo $this->book['xBook'] ?>"><?php echo $this->book['sBookName'] ?></a><span class="divider">/</span></li>
   <li class="active"><?php echo lg_portal_kbprinter ?></li>
